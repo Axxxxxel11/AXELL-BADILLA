@@ -25,7 +25,7 @@ for(let i = 0; i < altura; i++) {
     let espacios = ' '.repeat(altura - i - 1);
 
     // Genera las ramas del árbol usando asteriscos
-    let ramas = '*'.repeat(2 * i + 1);
+    let ramas = '*'.repeat(2 * i + 1);gi
 
     // Añade esta fila del árbol a la cadena de texto
     arbol += espacios + ramas + '\n';
